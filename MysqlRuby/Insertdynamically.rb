@@ -1,5 +1,5 @@
  require 'mysql'
-
+ #require 'kundan'
 begin
     
     con = Mysql.new 'localhost', 'root', 'sibu123', 'Mydbz'
