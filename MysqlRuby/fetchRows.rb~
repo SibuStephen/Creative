@@ -1,10 +1,18 @@
 #!/usr/bin/ruby
 
 require 'mysql'
+<<<<<<< HEAD
+#My Changes as such..!
+begin
+con=Mysql.new 'localhost','root','sibu123','Mydbz'
+rows=con.query("Select * from dbz")
+n_ro=rows.fetch_row
+=======
 
 begin
 con=Mysql.new 'localhost','root','sibu123','Mydbz'
 rows=con.query("Select * from dbz")
 n_ro=rows.fetch_rows
+>>>>>>> 755339e2dadbbdacbcd58dbcb68ea9bd9b4b5688
 puts n_ro
 end
